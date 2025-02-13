@@ -17,7 +17,7 @@ class PluginMgr {
       for (let index = 0; index < childElements.Count; index++) {
         const element = childElements.get_Item(index);
         if (element.name == FairyEditor.FObjectType.LIST) {
-          if (!element.GetAttribute("autoClearItems")) {
+          if (element.GetAttribute("autoClearItems")) {
             continue;
           }
 
