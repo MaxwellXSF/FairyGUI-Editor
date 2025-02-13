@@ -24,7 +24,12 @@ export default class PluginMgr {
           }
 
           let txt =
-            item.name + "=>" + element.GetAttribute("name") + "未发布清空";
+            item.owner.name +
+            "=======>" +
+            item.name +
+            "=======>" +
+            element.GetAttribute("name") +
+            "未发布清空";
           if (list.indexOf(txt) === -1) {
             list.push(txt);
           }

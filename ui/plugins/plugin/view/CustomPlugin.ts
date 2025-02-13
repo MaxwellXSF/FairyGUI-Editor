@@ -18,7 +18,7 @@ export default class CustomPlugin extends UIWind {
   }
 
   private list: CS.FairyGUI.GList;
-  private listData = ["1", "2", "3"];
+  private listData = [];
   protected onInit(): void {
     super.onInit();
     let closeBtn = this.contentPane.GetChild("btnClose").asButton;
@@ -68,7 +68,7 @@ export default class CustomPlugin extends UIWind {
       for (let index = 0; index < count; index++) {
         let item = pkg.items.get_Item(index);
 
-        if (!item.exported) continue;
+        //if (!item.exported) continue;
         if (item.type != FairyEditor.FPackageItemType.COMPONENT) {
           continue;
         }
@@ -81,7 +81,6 @@ export default class CustomPlugin extends UIWind {
       }
     }
 
-    console.log(this.listData.toString());
     this.list.numItems = this.listData.length;
   }
 

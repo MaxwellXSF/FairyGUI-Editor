@@ -98,7 +98,7 @@ class CustomPlugin extends UIWind_1.default {
         let count = pkg.items.Count;
         for (let index = 0; index < count; index++) {
           let item = pkg.items.get_Item(index);
-          if (!item.exported) continue;
+          //if (!item.exported) continue;
           if (item.type != FairyEditor.FPackageItemType.COMPONENT) {
             continue;
           }
