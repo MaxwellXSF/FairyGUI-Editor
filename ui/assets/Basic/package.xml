@@ -167,5 +167,5 @@
     <component id="exa7ixicux" name="ButtonWithIcon.xml" path="/Button/" exported="true"/>
     <component id="kiv0ixicuz" name="ComboBox2.xml" path="/ComboBox/" exported="true"/>
   </resources>
-  <publish name="Basic"/>
+  <publish name="Basic" path="./plugins/plugin" packageCount="1"/>
 </packageDescription>

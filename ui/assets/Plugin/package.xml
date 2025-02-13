@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="sc6qsb5f">
+  <resources>
+    <component id="is4a1" name="CustomPlugin.xml" path="/" exported="true"/>
+    <component id="zdpt2" name="ListItem.xml" path="/" exported="true"/>
+  </resources>
+  <publish name="Plugin" path="./plugins/plugin" packageCount="1"/>
+</packageDescription>

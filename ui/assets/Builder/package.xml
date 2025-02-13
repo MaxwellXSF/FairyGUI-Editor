@@ -583,5 +583,5 @@
     <image id="zsu01nry32a" name="center.svg" path="/icons/" width="16" height="16"/>
     <image id="zsu01nry32b" name="center@2x.png" path="/icons/"/>
   </resources>
-  <publish name="Builder"/>
+  <publish name="Builder" path="./plugins/plugin" packageCount="1"/>
 </packageDescription>

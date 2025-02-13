@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="800,600">
+  <displayList>
+    <component id="n0" name="frame" src="gcza1l" fileName="Window/WindowFrame.xml" pkg="nk9ejx23" xy="0,0" size="800,600">
+      <relation target="" sidePair="width-width,height-height"/>
+      <Label title="插件"/>
+    </component>
+    <component id="n66_bg8k" name="btnClose" src="gcza1m" fileName="Window/WindowCloseButton.xml" pkg="nk9ejx23" xy="770,3">
+      <relation target="n0" sidePair="left-right,top-top"/>
+    </component>
+    <component id="n67_zdpt" name="btnCheckList" src="xualm" fileName="Button/Button.xml" pkg="nk9ejx23" xy="22,42">
+      <Button title="列表检测"/>
+    </component>
+    <list id="n68_zdpt" name="list" xy="150,40" size="616,542" layout="flow_hz" overflow="scroll" defaultItem="ui://sc6qsb5fzdpt2" autoClearItems="true">
+      <item title="Label"/>
+      <item title="Label"/>
+    </list>
+  </displayList>
+</component>

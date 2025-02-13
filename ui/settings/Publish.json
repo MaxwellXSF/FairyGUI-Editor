@@ -19,10 +19,11 @@
   },
   "includeHighResolution": 5,
   "branchProcessing": 0,
+  "seperatedAtlasForBranch": false,
   "atlasSetting": {
     "maxSize": 2048,
     "paging": true,
-    "sizeOption": "pot",
+    "sizeOption": "npot",
     "forceSquare": false,
     "allowRotation": true,
     "trimImage": true
